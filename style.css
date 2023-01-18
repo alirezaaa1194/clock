@@ -107,6 +107,7 @@
     text-shadow: 0px 0px 15px pink;
     color: pink;
     font-size: 20px !important;
+    padding: 9px;
 }
 .twelve{
     position: absolute;
