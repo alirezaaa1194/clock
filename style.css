@@ -107,7 +107,7 @@
     text-shadow: 0px 0px 15px pink;
     color: pink;
     font-size: 20px !important;
-    padding: 9px;
+    padding: 5px;
 }
 .twelve{
     position: absolute;
@@ -173,5 +173,8 @@
 @media screen and (max-width:800px) and (orientation:landscape) {
     .alltime{
       transform: scale(.6);
+    }
+    .analogbox span{
+        padding: 9px;
     }
   }
