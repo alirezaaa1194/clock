@@ -115,13 +115,13 @@
 }
 .one{
     position: absolute;
-    top: 5px;
-    right: 40px;
+    top: 7px;
+    right: 30px;
 }
 .two{
     position: absolute;
-    top: 35px;
-    right: 12px; 
+    top: 40px;
+    right: 8px; 
 }
 .three{
     position: absolute;
@@ -130,13 +130,13 @@
 }
 .four{
     position: absolute;
-    bottom: 40px;
-    right: 12px;
+    bottom: 32px;
+    right: 8px;
 }
 .five{
     position: absolute;
-    bottom: 2px;
-    right: 45px;
+    bottom: 7px;
+    right: 36px;
 }
 .six{
     position: absolute;
@@ -149,8 +149,8 @@
 }
 .eight{
     position: absolute;
-    bottom: 40px;
-    left: 12px;
+    bottom: 32px;
+    left: 8px;
 }
 .nine{
     position: absolute;
@@ -159,13 +159,13 @@
 }
 .ten{
     position: absolute;
-    top: 35px;
-    left: 12px; 
+    top: 40px;
+    left: 8px; 
 }
 .eleven{
     position: absolute;
     top: 7px;
-    left: 35px;
+    left: 30px;
 }
 .datebox{
     transition: .5s;
