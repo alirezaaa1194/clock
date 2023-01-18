@@ -1,0 +1,176 @@
+@font-face {
+    font-family: aa;
+    src: url("./BTraffic.ttf");
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: aa;
+    user-select: none;
+  }
+  .sesion {
+    font-family: "Noto Sans Arabic", sans-serif;
+  }
+  body {
+    height: 100vh;
+    background-color: purple !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hourbox {
+    width: 300px;
+    height: 120px;
+    position: relative;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 7px;
+    transition: 0.5s;
+    color: pink;
+    background-color: purple;
+    border-radius: 15px;
+    user-select: none;
+    box-shadow: 0px 0px 15px pink;
+    margin: 20px 0px;
+  }
+  .alltime {
+    display: flex;
+    flex-direction: column;
+  }
+  span {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+  }
+  .sesion {
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+.a{
+    width: 4px;
+    height: 75px;
+    background-color: purple;
+    box-shadow: 0px 0px 15px pink;
+    position: absolute;
+    top:30px;
+    z-index: 3;
+}
+.b{
+    width: 4px;
+    height: 70px;
+    background-color: purple;
+    box-shadow: 0px 0px 15px pink;
+    position: absolute;
+    top: 34px;
+    z-index: 3;
+}
+.c{
+    width: 4px;
+    height: 50px;
+    background-color: purple;
+    box-shadow: 0px 0px 15px pink;
+    position: absolute;
+    top: 55px;
+    z-index: 3;
+}
+.analogbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: purple;
+    box-shadow: 0px 0px 15px pink;
+    transition: 0.5s;
+}
+.center{
+    width: 15px;
+    height: 15px;
+    background-color: purple;
+    box-shadow: 0px 0px 15px pink;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+.analogbox span{
+    text-shadow: 0px 0px 15px pink;
+    color: pink;
+    font-size: 20px !important;
+}
+.twelve{
+    position: absolute;
+    top: 0px;
+}
+.one{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+.two{
+    position: absolute;
+    top: 35px;
+    right: 12px; 
+}
+.three{
+    position: absolute;
+    top: 80px;
+    right: 0px;
+}
+.four{
+    position: absolute;
+    bottom: 40px;
+    right: 12px;
+}
+.five{
+    position: absolute;
+    bottom: 2px;
+    right: 45px;
+}
+.six{
+    position: absolute;
+    bottom: 0;
+}
+.seven{
+    position: absolute;
+    bottom: 3px;
+    left: 42px;
+}
+.eight{
+    position: absolute;
+    bottom: 40px;
+    left: 12px;
+}
+.nine{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+}
+.ten{
+    position: absolute;
+    top: 35px;
+    left: 12px; 
+}
+.eleven{
+    position: absolute;
+    top: 7px;
+    left: 35px;
+}
+.datebox{
+    transition: .5s;
+}
+@media screen and (max-width:800px) and (orientation:landscape) {
+    .alltime{
+      transform: scale(.6);
+    }
+  }
