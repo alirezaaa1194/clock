@@ -96,6 +96,14 @@ setInterval(function () {
   b.style.transform = "rotate(" + mm * 6 + "deg)";
   c.style.transformOrigin = "bottom";
   c.style.transform = "rotate(" + hh * 30 + "deg)";
+
+
+
+  if(hh==0 && mm==0 && ss==0){
+    datebox.style.boxShadow = "0px 0px 40px pink";
+  } else {
+    datebox.style.boxShadow = "0px 0px 15px pink";
+  }
 }, 1000);
 
 let y = document.getElementById("year");
