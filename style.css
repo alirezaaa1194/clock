@@ -170,6 +170,11 @@
 .datebox{
     transition: .5s;
 }
+@media screen and (max-width:800px) {
+    .analogbox span{
+        padding: 10px;
+    }
+  }
 @media screen and (max-width:800px) and (orientation:landscape) {
     .alltime{
       transform: scale(.6);
