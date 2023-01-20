@@ -10,8 +10,8 @@ let c = document.getElementById("c");
 let analogbox = document.getElementById("analogbox");
 let session = "AM";
 let date2 = new Date();
-let hh = date2.getHours();
-let mm = date2.getMinutes();
+let hh = date2.getHours()-2;
+let mm = date2.getMinutes()+8;
 let ss = date2.getSeconds();
 a.style.transformOrigin = "bottom";
 a.style.transform = "rotate(" + ss * 6 + "deg)";
@@ -23,7 +23,7 @@ c.style.transform = "rotate(" + hh * 30 + "deg)";
 if (hh < 12) {
   session = "AM";
 }
-if (hh > 12) {
+if (hh >= 12) {
   session = "PM";
 }
 hour.innerHTML = hh;
@@ -55,13 +55,13 @@ sesion.innerHTML = session;
 
 setInterval(function () {
   let date = new Date();
-  let hh = date.getHours();
+  let hh = date.getHours()-2;
   let mm = date.getMinutes();
   let ss = date.getSeconds();
   if (hh < 12) {
     session = "AM";
   }
-  if (hh > 12) {
+  if (hh >= 12) {
     session = "PM";
   }
   hour.innerHTML = hh;
